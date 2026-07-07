@@ -1,0 +1,198 @@
+                            /* PC (desktops, large screens) */
+@media (min-width: 1025px) {
+.w-md-75{
+    width: 68%;
+    margin-top: 20px;
+}
+}
+                            /* Tablet (portrait and landscape) */
+@media (min-width: 768px) and (max-width: 1024px) {
+.w-md-75{
+    width: 100%;
+}
+.sticky-navbar {
+    top: 0;
+    left:0;
+}
+.top-200 {
+    top: 157px;
+    z-index: 999;
+    max-width: 100%;
+    left: 0;
+}
+.top-200 h2 {
+    font-size: 45px;
+}
+.top-200 p {
+    font-size: 16px;
+}
+.our-content .shap-1{
+     display: none;
+}
+.our-content .shap-2{
+    display: none;
+}
+.our-content .img-1 {
+    position: relative;
+    left: 0;
+}
+.our-content .width {
+    max-width: 100%;
+}
+.match .favorite-match-1 {
+        left: 47px;
+    top: 280px;
+    width: 41%;
+}
+.match .favorite-match-2 {
+        left: 406px;
+        top: 66px;
+        width: 41%;
+    }
+.match .box-1 {
+    height: 530px;
+  }
+.news {
+    top: -50px;
+}
+.match-2 {
+    height: 230px;
+}
+.price-card-1 {
+    height: 740px;
+}
+.price-card-2 {
+    height: 740px;
+}
+.price-card-3 {
+    height: 740px;
+}
+.benefits .position-relative {
+height: 750px;
+}
+.number {
+  padding:30px;
+}
+.number h2{
+    font-size: 35px;
+}
+.section {
+    padding-top: 70px;
+    padding-bottom: 70px;
+}
+}
+
+                            /* Mobile (phones) */
+@media (max-width: 767px) {
+.w-md-75{
+    width: 100%;
+}
+.section {
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+.top-200 {
+    top: 167px;
+    left: 0;
+}
+.top-yellow-text{
+    font-size: 13px;
+}
+.top-200 h2 {
+    font-size: 35px;
+    font-weight: 800;
+}
+.top-200 p {
+    font-size: 16px;
+}
+.sticky-navbar {
+    top: 0px;
+    left:0;
+}
+.review-1 {
+    padding: 22px 5px;
+    position: relative;
+    bottom: 0px;
+        left: 111px;
+    max-width: 140px;
+}
+.review-2 {
+    padding: 20px 10px;
+    position: relative;
+    bottom: -10px;
+        left: 111px;
+    max-width: 140px;
+}
+.review-dot-2::before{
+    top: 134px;
+}
+.our-content .shap-1{
+     display: none;
+}
+.our-content .shap-2{
+    display: none;
+}
+.our-content .img-1 {
+    position: relative;
+    left: 0;
+}
+.match .favorite-match-1 {
+       left: 20px;
+        top: 250px;
+        width: 90%;
+    }
+.match .favorite-match-2 {
+        left: 20px;
+        top: 590px;
+        width: 90%;
+    }
+.h-2 {
+    font-size: 30px;
+}
+.match .box-1 {
+    height: 525px;
+}
+.news {
+    top: -60px;
+}
+.match-2 {
+    height: 750px;
+}
+.price-card-1 {
+    height: 750px;
+}
+.price-card-2 {
+    height: 750px;
+}
+.price-card-3 {
+    height: 750px;
+}
+.benefits .position-relative{
+    height: 440px;
+}
+.benefits .review-1 {
+    padding: 20px 10px;
+    position: relative;
+    bottom: 180px;
+    left: 3%;
+    background-color: #c90e0e;
+    border-radius: 10px;
+    color: #ffffff !important;
+    text-align: center;
+    width: 50%;
+    bottom: 145px;
+}
+.benefits .review-dot-1::before {
+    top: 143px;
+}
+.benefits .review-dot-1 .review-in::after {
+    left: 137px;
+}
+.number h2{
+    font-size: 30px;
+}
+.number p{
+    font-size: 14px;
+}
+
+}
